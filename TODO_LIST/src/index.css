@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:gray;
+  color: white;
+}
+
+.text-center
+{
+  text-align: center;
+}
+.container
+{
+  width: 60%;
+  margin: 10% auto;
+}
+.Listitems{
+  background: white;
+  color: black;
+}
+.Listitems p{ 
+ margin: 0;
+ text-align: center;
+ padding: 10px 0px;
+}
+
+.Listitems span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+.Listitems span.title {
+  background: skyblue;
+  color: #fff;
+}
+
+.Listitems span.name, 
+form input [type = text] {
+  width: 60%;
+}
+
+.Listitems span.age, 
+form input [type = number] {
+  width: 30%;
+}
+
+.Listitems span.action, 
+form input [type = action] {
+  width: 10%;
+}
+
+.Listitems span.icon{
+  color: brown;
+  cursor: pointer;
+}
+
+form input {
+  padding: 10px;
+  background: wheat;
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+
+form input[type=submit] {
+  background: skyblue;
+  border: 0.3px solid skyblue;
+  cursor: pointer;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
